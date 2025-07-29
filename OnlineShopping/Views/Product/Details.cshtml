@@ -1,0 +1,59 @@
+﻿@model OnlineShopping.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Product</h4>
+    <table class="table" style="border: 1px solid black;">
+        <tbody>
+            <tr>
+                <th style="border: 1px solid black;">
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <td style="border: 1px solid black;">
+                    @Html.DisplayFor(model => model.Title)
+                </td>
+            </tr>
+            <tr>
+                <th style="border: 1px solid black;">
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <td style="border: 1px solid black;">
+                    Rs.@Html.DisplayFor(model => model.Price)
+                </td>
+            </tr>
+            <tr>
+                <th style="border: 1px solid black;">
+                    @Html.DisplayNameFor(model => model.ProductIcon)
+                </th>
+                <td style="border: 1px solid black;">
+                    <img src="~/@Model.ProductIcon" width="100" height="100" style="object-fit:contain" />
+                </td>
+            </tr>
+            <tr>
+                <th style="border: 1px solid black;">
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <td style="border: 1px solid black;">
+                    @Html.DisplayFor(model => model.Description)
+                </td>
+            </tr>
+            <tr>
+                <th style="border: 1px solid black;">
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <td style="border: 1px solid black;">
+                    @Html.DisplayFor(model => model.Category.Name)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
