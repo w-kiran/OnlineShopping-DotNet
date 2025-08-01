@@ -1047,3 +1047,4 @@ C:\Users\Acer\Documents\DotNet\OnlineShopping\OnlineShopping\obj\Debug\net8.0\re
 C:\Users\Acer\Documents\DotNet\OnlineShopping\OnlineShopping\obj\Debug\net8.0\OnlineShopping.pdb
 C:\Users\Acer\Documents\DotNet\OnlineShopping\OnlineShopping\obj\Debug\net8.0\OnlineShopping.genruntimeconfig.cache
 C:\Users\Acer\Documents\DotNet\OnlineShopping\OnlineShopping\obj\Debug\net8.0\ref\OnlineShopping.dll
+C:\Users\Acer\Documents\DotNet\OnlineShopping\OnlineShopping\obj\Debug\net8.0\OnlineShopping.sourcelink.json
